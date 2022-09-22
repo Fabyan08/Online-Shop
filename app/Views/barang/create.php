@@ -22,6 +22,13 @@
                         <input type="number" class="form-control" id="harga" name="harga" value="<?= old('harga'); ?>">
                     </div>
                 </div>
+                <div class="row mb-3">
+                    <label for="harga" class="col-sm-2 col-form-label">Stok</label>
+                    <div class="col-sm-10">
+
+                        <input type="number" class="form-control" id="stok" name="stok" value="<?= old('stok'); ?>">
+                    </div>
+                </div>
                 <div class=" row mb-3">
                     <la bel for="kategori" class="col-sm-2 col-form-label">Kategori</la>
                     <select class="form-select col-sm-5 ms-2" aria-label="Default select example" name="kategori" value="<?= old('kategori'); ?>">
@@ -44,6 +51,13 @@
                             </div>
                             <label class="custom-file-label" for="gambar">Pilih gambar...</label>
                         </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="deskripsi" class="col-sm-2 col-form-label">Deskripsi</label>
+                    <div class="col-sm-10">
+
+                        <input type="text" style="height: 100px;" class="form-control" id="deskipsi" name="deskripsi" value="<?= old('deskripsi'); ?>">
                     </div>
                 </div>
                 <!-- <a href="/barang/save" class="btn btn-primary">Tambah Data</a> -->

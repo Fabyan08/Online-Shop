@@ -20,7 +20,9 @@
                                 return $hasil;
                             }
                             ?>
+                            <p class="card-text">Stok: <?= $barang['stok']; ?></p>
                             <p class="card-text"><small class="text-muted">Harga: <?= rupiah($barang['harga']); ?></small></p>
+                            <p class="card-text">Deskripsi: <?= $barang['deskripsi']; ?></p>
 
                             <a href="/barang/edit/<?= $barang['slug']; ?>" class="btn btn-outline-warning">Edit</a>
 

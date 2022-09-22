@@ -23,6 +23,18 @@
                         <input type="number" class="form-control" id="harga" name="harga" value="<?= (old('harga')) ? old('harga') : $barang['harga'] ?>">
                     </div>
                 </div>
+                <div class="row mb-3">
+                    <label for="stok" class="col-sm-2 col-form-label">Stok</label>
+                    <div class="col-sm-10">
+                        <input type="number" class="form-control" id="stok" name="stok" value="<?= (old('stok')) ? old('stok') : $barang['stok'] ?>">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label for="deskripsi" class="col-sm-2 col-form-label">Deskripsi</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="deskripsi" name="deskripsi" value="<?= (old('deskripsi')) ? old('deskripsi') : $barang['deskripsi'] ?>">
+                    </div>
+                </div>
                 <div class=" row mb-3">
                     <la bel for="kategori" class="col-sm-2 col-form-label">Kategori</la>
                     <select class="form-select col-sm-5 ms-2" aria-label="Default select example" name="kategori" value="<?= (old('kategori')) ? old('kategori') : $barang['kategori'] ?>">

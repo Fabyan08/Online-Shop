@@ -97,8 +97,10 @@ class Barang extends BaseController
             'judul' => $this->request->getVar('judul'),
             'slug' => $slug,
             'harga' => $this->request->getVar('harga'),
+            'stok' => $this->request->getVar('stok'),
             'kategori' => $this->request->getVar('kategori'),
-            'gambar' => $namaGambar
+            'gambar' => $namaGambar,
+            'deskripsi' => $this->request->getVar('deskripsi')
         ]);
 
         session()->setFlashdata('pesan', 'Data berhasil ditambahkan!');
@@ -184,8 +186,10 @@ class Barang extends BaseController
             'judul' => $this->request->getVar('judul'),
             'slug' => $slug,
             'harga' => $this->request->getVar('harga'),
+            'stok' => $this->request->getVar('stok'),
             'kategori' => $this->request->getVar('kategori'),
-            'gambar' => $namaGambar
+            'gambar' => $namaGambar,
+            'deskripsi' => $this->request->getVar('deskripsi')
         ]);
 
         session()->setFlashdata('pesan', 'Data berhasil diubah!');

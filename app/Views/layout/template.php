@@ -63,12 +63,13 @@
                         <ul class="nav-shop">
                             <form action="" method="post">
                                 <div class="input-group">
-                                    <input class="form-control " type="text" placeholder="Cari barangmu di sini..." name="keyword">
+                                    <input class="form-control" type="text" placeholder="Cari barangmu di sini..." name="keyword">
                                     <button class="btn btn-outline-primary me-5 rounded-end" type="submit" id="button-addon2" name="submit">Cari</button>
-                                    <!-- <li class="nav-item"><button><i class="ti-search"></i></button></li> -->
-                                    <li class="nav-item mt-2"><button><i class="ti-shopping-cart"></i><span class="nav-shop__circle">3</span></button> </li>
-                                    <!-- <a class="button button-header ms-1" href="#">Buy Now</a> -->
+                                    <!-- <li class="nav-item mt-2"><button><i class="ti-shopping-cart"></i><span class="nav-shop__circle">3</span></button> </li> -->
+                                    <li class="nav-item" style="margin-top: 5px;"><a class="nav-link" href="/pages/keranjang"><button><i class="ti-shopping-cart"></i><span class="nav-shop__circle">3</span></button>
+                                        </a> </li>
                                 </div>
+
                             </form>
                         </ul>
                     </div>
@@ -152,26 +153,23 @@
                 <div class="row section_gap">
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="single-footer-widget tp_widgets">
-                            <h4 class="footer_title large_title">Our Mission</h4>
+                            <h4 class="footer_title large_title">Misi Kami</h4>
                             <p>
-                                So seed seed green that winged cattle in. Gathering thing made fly you're no
-                                divided deep moved us lan Gathering thing us land years living.
+                                Untuk membuat hidup semua orang menjadi lebih mudah
                             </p>
                             <p>
-                                So seed seed green that winged cattle in. Gathering thing made fly you're no divided deep moved
-                            </p>
+                                Menawarkan berbagai rancangan yang didesain dengan baik, produk perabotan rumah yang fungsional dengan harga yang sangat rendah sehingga sebanyak mungkin orang akan mampu membelinya </p>
                         </div>
                     </div>
                     <div class="offset-lg-1 col-lg-2 col-md-6 col-sm-6">
                         <div class="single-footer-widget tp_widgets">
                             <h4 class="footer_title">Quick Links</h4>
                             <ul class="list">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Shop</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Product</a></li>
-                                <li><a href="#">Brand</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/pages/belanja">Belanja</a></li>
+                                <li><a href="/pages/tentang_kami">Tentang Kami</a></li>
+                                <li><a href="/pages/kontak">Kontak</a></li>
+                                <li><a href="/logout">Keluar</a></li>
                             </ul>
                         </div>
                     </div>
@@ -190,21 +188,20 @@
                     </div>
                     <div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6">
                         <div class="single-footer-widget tp_widgets">
-                            <h4 class="footer_title">Contact Us</h4>
+                            <h4 class="footer_title">Kontak Kami</h4>
                             <div class="ml-40">
                                 <p class="sm-head">
                                     <span class="fa fa-location-arrow"></span>
-                                    Head Office
+                                    Lokasi
                                 </p>
-                                <p>123, Main Street, Your City</p>
+                                <p>Malang</p>
 
                                 <p class="sm-head">
                                     <span class="fa fa-phone"></span>
-                                    Phone Number
+                                    Nomor Telepon
                                 </p>
                                 <p>
-                                    +123 456 7890 <br>
-                                    +123 456 7890
+                                    0895-3650-04303
                                 </p>
 
                                 <p class="sm-head">
@@ -212,8 +209,7 @@
                                     Email
                                 </p>
                                 <p>
-                                    free@infoexample.com <br>
-                                    www.infoexample.com
+                                    faza@gmail.com
                                 </p>
                             </div>
                         </div>

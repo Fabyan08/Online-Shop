@@ -67,4 +67,30 @@ class User extends BaseController
         ];
         return view('pages/belanja', $data);
     }
+    public function detail($slug)
+    {
+        $data = [
+            'title' => 'Detail Barang',
+            'barang' => $this->barangModel->getBarang($slug)
+        ];
+
+        //jika barang tak ada di tabel
+        if (empty($data['barang'])) {
+            throw new \CodeIgniter\Exceptions\PageNotFoundException('Mohon maaf, barang ' . $slug . ' tidak ditemukan');
+        }
+
+        return view('pages/detail', $data);
+    }
+    public function keranjang()
+    {
+        $barang = $this->barangModel->findAll();
+
+        $data = [
+            'title' => 'Keranjang | Faza.',
+            'barang' => $barang
+        ];
+
+
+        return view('pages/keranjang', $data);
+    }
 }
